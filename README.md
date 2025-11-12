@@ -1,19 +1,31 @@
-# Student Scores Prediction 📊
+# 📧 Spam Email Classification using Machine Learning
 
-This is my first Machine Learning project using **Linear Regression**.
+## 🧠 Project Overview
+This project classifies emails/SMS messages as **Spam (1)** or **Ham (0)** using the **Decision Tree Classifier**.
 
-### 🧠 About the Project
-- Dataset: `Hours vs Scores`
-- Goal: Predict student scores based on the number of study hours.
-- Model used: **Simple Linear Regression**
-- Tools: Google Colab, Python, scikit-learn, pandas, matplotlib
+## 📊 Dataset
+- Source: [Kaggle - SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
+- 5,574 labeled messages (ham/spam)
 
-### 📈 Steps
-1. Load and explore the dataset  
-2. Split data into training and testing sets  
-3. Train Linear Regression model  
-4. Evaluate using Mean Absolute Error and R² Score  
-5. Visualize results
+## ⚙️ Steps
+1. Data cleaning and preprocessing
+2. TF-IDF vectorization
+3. Model training (Decision Tree)
+4. Evaluation and visualization
 
-### 🔗 Run the Notebook
-You can open this project in Google Colab using the link inside the notebook.
+## 📈 Results
+- Accuracy: **96%**
+- Macro Avg F1: **0.91**
+- Weighted Avg F1: **0.96**
+
+## 📊 Visualizations
+- Confusion Matrix (heatmap)
+- Performance metrics (bar chart)
+- Important words (feature importance)
+
+## 🧰 Libraries Used
+- pandas, numpy
+- sklearn
+- matplotlib, seaborn
+
+
